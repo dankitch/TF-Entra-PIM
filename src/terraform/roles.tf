@@ -14,7 +14,6 @@ locals {
       members = [
         //"user1@mydomain.com",
         //"user2@mydomain.com"
-        "daniel.kitchen@barntest.org.uk"
       ]
     },
     {
@@ -36,7 +35,7 @@ locals {
       role_display_name = "Application Developer"
       privileged        = true
       members = [
-        "daniel.kitchen@barntest.org.uk"
+        //"user5@mydomain.com"
       ]
     }
   ]
