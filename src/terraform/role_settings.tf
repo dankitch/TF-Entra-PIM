@@ -21,7 +21,7 @@ resource "azuread_group_role_management_policy" "application_administrator" {
       admin_notifications {
         default_recipients    = false
         notification_level    = "All"
-        additional_recipients = ["adm-daniel.kitchen@barntest.org.uk"]
+        additional_recipients = ["user1@mydomain.com"]
       }
     }
   }
